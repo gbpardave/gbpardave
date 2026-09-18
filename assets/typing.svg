@@ -19,14 +19,4 @@
 </clipPath>
 <text x="10" y="26" clip-path="url(#line1)"><tspan class="prompt">gbpardave@github:~$ </tspan>whoami</text>
 <text x="10" y="26" clip-path="url(#line2)">uid=1000(gbpardave) groups=(backend,security)</text>
-<rect width="3" height="18" y="11" fill="#5eead4">
-  <animate attributeName="x" calcMode="discrete"
-    values="260;260;260;442;442;442;260;260"
-    keyTimes="0;0.15;0.45;0.5;0.6;0.85;0.95;1"
-    dur="6s" begin="0s" repeatCount="indefinite"/>
-  <animate attributeName="opacity" calcMode="discrete"
-    values="0;1;0;0;1;0;0;0"
-    keyTimes="0;0.15;0.45;0.5;0.6;0.85;0.95;1"
-    dur="6s" begin="0s" repeatCount="indefinite"/>
-</rect>
 </svg>
