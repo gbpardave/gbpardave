@@ -1,12 +1,5 @@
 <p align="center">
-  <img src="assets/kerberos.svg" alt="kerberos" width="220">
-</p>
-
-<h3 align="center">Gustavo Pardave</h3>
-
-<p align="center">
-  Backend engineer working across hexagonal architecture, security and pentesting.<br>
-  Minimalist Linux setup, terminal-first workflow.
+  <img src="https://readme-typing-svg.demolab.com?font=Iosevka&duration=4000&pause=1200&color=5EEAD4&center=true&vCenter=true&width=200&lines=%24+whoami;gustavo" alt="typing-svg">
 </p>
 
 <p align="center">
