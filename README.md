@@ -1,12 +1,14 @@
 <p align="center">
-  <img src="assets/avatar.jpg" alt="avatar" width="160">
+  <img src="assets/kerberos.svg" alt="kerberos" width="220">
 </p>
 
-<h3 align="center">Hi, I'm Gustavo 👋</h3>
+<h3 align="center">Gustavo Pardave</h3>
 
 <p align="center">
-  Backend engineer. I build with hexagonal architecture and break things with pentesting.<br>
-  Minimalist Linux setup (i3wm/Archcraft), terminal-first workflow.
+  Backend engineer working across hexagonal architecture, security and pentesting.<br>
+  Minimalist Linux setup, terminal-first workflow.
 </p>
 
-<details><summary>GitHub Stats</summary><div align="center"><img src="https://raw.githubusercontent.com/gbpardave/gbpardave/stats/stats.svg" width="320" alt="github stats" /></div></details>
+<p align="center">
+  <img src="https://raw.githubusercontent.com/gbpardave/gbpardave/stats/stats.svg" width="320" alt="github stats">
+</p>
