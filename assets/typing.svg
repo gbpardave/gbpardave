@@ -1,20 +1,28 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="150" height="50" viewBox="0 0 150 50">
+<svg xmlns="http://www.w3.org/2000/svg" width="200" height="60" viewBox="0 0 200 60">
 <style>
-  text { font: 20px Iosevka, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #0e7490; }
-  @media (prefers-color-scheme: dark) {
-    text { fill: #5eead4; }
-  }
+  text { font: 20px Iosevka, ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; fill: #5eead4; }
 </style>
+<rect x="0.5" y="0.5" width="199" height="59" rx="12" fill="#05070a" stroke="#5eead4" stroke-opacity="0.25"/>
 <clipPath id="line1">
-  <rect x="10" y="5" width="0" height="35">
-    <animate attributeName="width" values="0;130;130;0;0" keyTimes="0;0.15;0.45;0.5;1" dur="6s" begin="0s" repeatCount="indefinite"/>
+  <rect x="18" y="10" width="0" height="40">
+    <animate attributeName="width" values="0;140;140;0;0" keyTimes="0;0.15;0.45;0.5;1" dur="6s" begin="0s" repeatCount="indefinite"/>
   </rect>
 </clipPath>
 <clipPath id="line2">
-  <rect x="10" y="5" width="0" height="35">
-    <animate attributeName="width" values="0;0;0;130;130;0" keyTimes="0;0.5;0.55;0.85;0.95;1" dur="6s" begin="0s" repeatCount="indefinite"/>
+  <rect x="18" y="10" width="0" height="40">
+    <animate attributeName="width" values="0;0;0;140;140;0" keyTimes="0;0.5;0.55;0.85;0.95;1" dur="6s" begin="0s" repeatCount="indefinite"/>
   </rect>
 </clipPath>
-<text x="10" y="30" clip-path="url(#line1)">$ whoami</text>
-<text x="10" y="30" clip-path="url(#line2)">gbpardave</text>
+<text x="18" y="36" clip-path="url(#line1)">$ whoami</text>
+<text x="18" y="36" clip-path="url(#line2)">gbpardave</text>
+<rect width="3" height="24" y="16" fill="#5eead4">
+  <animate attributeName="x" calcMode="discrete"
+    values="114;114;114;126;126;126;114;114"
+    keyTimes="0;0.15;0.45;0.5;0.55;0.85;0.95;1"
+    dur="6s" begin="0s" repeatCount="indefinite"/>
+  <animate attributeName="opacity" calcMode="discrete"
+    values="0;1;0;0;1;0;0;0"
+    keyTimes="0;0.15;0.45;0.5;0.55;0.85;0.95;1"
+    dur="6s" begin="0s" repeatCount="indefinite"/>
+</rect>
 </svg>
